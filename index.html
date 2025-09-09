@@ -3,23 +3,24 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>My Website</title>
+  <title>My SPA Website</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
   <!-- Navigation -->
   <nav>
     <ul>
-      <li><a href="index.html" class="active">Home</a></li>
-      <li><a href="blogs.html">Blogs</a></li>
-      <li><a href="news.html">News</a></li>
+      <li><a href="#" data-page="home" class="active">Home</a></li>
+      <li><a href="#" data-page="blogs">Blogs</a></li>
+      <li><a href="#" data-page="news">News</a></li>
     </ul>
   </nav>
 
-  <!-- Content -->
-  <div class="content">
-    <h1>Welcome to My Website</h1>
-    <p>This is the home page. Use the tabs above to explore Blogs and News.</p>
+  <!-- Content area -->
+  <div id="content" class="content">
+    <!-- Default page loads here -->
   </div>
+
+  <script src="script.js"></script>
 </body>
 </html>
